@@ -1,0 +1,3 @@
+# JavaScript Type Coercion Bug in Null Handling
+
+This repository demonstrates a subtle bug in JavaScript related to type coercion and null handling. The bug occurs in the `foo` function, which is designed to return `null` if either input parameter `a` or `b` is `null`. However, due to JavaScript's loose type system, the function does not always behave as intended.  The bug and its solution are presented in separate JavaScript files.
